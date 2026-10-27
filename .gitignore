@@ -1,0 +1,40 @@
+# Virtual environments, Python and build outputs
+.venv/
+__pycache__/
+*.py[cod]
+*.spec
+build/
+dist/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local customer/research data. Only the explicit original test fixtures are tracked.
+*.xlsx
+!tests/in1.xlsx
+!tests/in2.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+*.tsv
+*.parquet
+*.sav
+*.rds
+*.feather
+*.sqlite
+*.db
+
+# Private material and generated distributions
+*.key
+*.pem
+*.pfx
+*.p12
+*.env
+.env
+.env.*
+*.zip
+*.7z
+*.rar

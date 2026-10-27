@@ -1,0 +1,30 @@
+xlsxDiff GUI 1.2.1 — a modified derivative of xlsxDiff 2.0.0
+============================================================
+Original xlsxDiff: Copyright (C) 2020–2023 Rafał Czeczótka
+Upstream author and project: https://github.com/rafal-dot/xlsxDiff
+Original unmodified script: upstream_original/xlsxDiff.py
+
+Modifications and GUI version (2026): Michał Dubrawski
+Development assistance: OpenAI ChatGPT (GPT-6), for code, tests, UI and docs.
+Michał Dubrawski is the maintainer responsible for these published changes.
+OpenAI is not a project owner, licensor, maintainer or endorser.
+
+Changes made in October 2026 (releases 1.0.0–1.2.1):
+- Extracted a reusable comparison engine and backward-compatible CLI.
+- Created a Windows GUI with batch queue, cancellation, progress and logging.
+- Added optional whole-number and percentage replacement highlighting.
+- Added bilingual English/Polish GUI with switching at run time.
+- Created and integrated a multi-size icon into GUI/Windows executables.
+- Added validation/safety fixes, tests, reproducible packaging tools, and docs.
+- Enabled XLSM input workbook comparison (no VBA processing; output XLSX).
+
+License: GNU Affero General Public License, version 3 or any later version
+(SPDX: AGPL-3.0-or-later). See LICENSE.
+
+You are permitted to copy, modify and redistribute this modified program
+under the terms of the AGPL. This program is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE, to the extent permitted by applicable law.
+
+Builds may bundle third-party components with separate license notices. See
+THIRD_PARTY.md and the corresponding release's license and build manifest.
